@@ -1,6 +1,6 @@
 {
   "id": "nl.eneco.toon",
-  "version": "2.1.23",
+  "version": "2.2.0",
   "compatibility": ">=3.0.0",
   "brandColor": "#e74759",
   "sdk": 2,
@@ -9,8 +9,8 @@
     "nl": "Toon"
   },
   "description": {
-    "en": "Toon",
-    "nl": "Toon"
+    "en": "Insight in your energy usage and generation",
+    "nl": "Inzicht in je energieverbruik en opwekking"
   },
   "author": {
     "name": "Athom B.V."
@@ -83,6 +83,7 @@
       "capabilities": [
         "target_temperature",
         "measure_temperature",
+        "measure_humidity",
         "temperature_state",
         "meter_power",
         "measure_power",
